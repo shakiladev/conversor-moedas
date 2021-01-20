@@ -7,6 +7,11 @@
 </head>
 <body>
     <h2>USD/EUR Currency Conversion</h2>
+    <form action="#" method="post">
+    <label>Insert a Dollar Value</label>
+    <input type="text" name="dollars" id="dollar">
+    <button type="submit">Conversion</button>
+    </form>
     <?php
 
     // 1.00 USD = 0.82 EUR
